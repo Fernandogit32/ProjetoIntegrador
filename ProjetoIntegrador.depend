@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1542303351 source:c:\users\usuário\desktop\projetointegrador\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1542288032 c:\users\usuário\desktop\projetointegrador\colors.h
+
