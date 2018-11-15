@@ -4,11 +4,6 @@
 
 
 
-
-
-
-
-
 int main(){
 
     int opcao=0;
@@ -31,6 +26,11 @@ int main(){
     printf("6. Combinatória\n");
     printf("7. Derivação Numéria\n");
     printf("8. Sair\n\n");
+ int i;
+   /*for(i = 0; i < 256; i++)
+   {
+      printf("%d %c\n", i, i);
+   }*/
     scanf("%d",&opcao);
 
 
@@ -40,10 +40,19 @@ int main(){
     system("cls");
     printf("Escolha uma opção \n\n");
     printf("Somatorio \n\n");
-    printf("1 soma1\n");
-    printf("2 soma2\n");
-    printf("3 soma3\n");
-    printf("4 Volrtar ao menu Principal\n");
+    printf("     \t     n                \n");
+    printf("1-  \t  E       k           \n");
+    printf("\     \t     k = a            \n\n");
+    printf("----------------------------\n\n");
+     printf("      \t      n      m         \n");
+    printf("2- \t   E       k          \n");
+    printf("     \t      k = a           \n\n");
+    printf("----------------------------\n\n");
+   printf("      \t     n     k          \n");
+    printf("3- \t  E       m           \n");
+    printf("     \t     k = a            \n\n");
+    printf("-----------------------------\n\n");
+    printf("4- Voltar ao menu Principal\n\n");
     scanf("%d",&opcao);
     switch(opcao)
     {
@@ -76,9 +85,9 @@ int main(){
         system("cls");
     printf("Escolha uma opção \n\n");
     printf("Constantes \n\n");
-    printf("1 Valor de r\n");
-    printf("2 valor de e\n");
-    printf("3 Volrtar ao menu Principal\n");
+    printf("1- Valor de PI\n\n");
+    printf("2- valor de e\n\n");
+    printf("3- Voltar ao menu Principal\n\n");
     scanf("%d",&opcao);
     switch(opcao)
     {
@@ -110,14 +119,13 @@ int main(){
     printf("Escolha uma opção \n\n");
     printf("Lógica Proporcional \n\n");
     printf("1 ~ p \n\n");
-    printf("2 p ^ p \n\n");
+    printf("2 p ^ q \n\n");
     printf("3 p v q \n\n");
     printf("4 p v q \n");
     printf("    -  \n");
     printf("5 p -> q \n \n");
-    printf("5 p -> q \n \n");
     printf("6 p <-> q \n \n");
-    printf("7 Volrtar ao menu Principal\n");
+    printf("7 Voltar ao menu Principal\n\n");
     scanf("%d",&opcao);
     switch(opcao)
     {
@@ -151,7 +159,7 @@ int main(){
         break;
     default:
     system("cls");
-    printf("Opção Inválida Escolha Outra Opção \n");
+    printf("Opção Inválida Escolha Outra Opção \n\n");
     system("pause");
     system("cls");
     logicaProporcional();
@@ -163,11 +171,11 @@ int main(){
         system("cls");
     printf("Escolha uma opção \n\n");
     printf("Matriz \n\n");
-    printf("1 Soma \n");
-    printf("2 Subtração \n");
-    printf("3 Produto \n");
-    printf("4 Determinante \n");
-    printf("5 Volrtar ao menu Principal\n");
+    printf("1- Soma \n");
+    printf("2- Subtração \n");
+    printf("3- Produto \n");
+    printf("4- Determinante \n");
+    printf("5- Voltar ao menu Principal\n\n");
     scanf("%d",&opcao);
     switch(opcao)
     {
@@ -203,21 +211,27 @@ int main(){
 
 
      void funcao() {
-        system("cls");
+    system("cls");
     printf("Escolha uma opção \n\n");
-    printf("Funçao \n\n");
-    printf("1 função1 \n");
-    printf("2 função2 \n");
-    printf("3 função3 \n");
-    printf("4 função4 \n");
-    printf("5 função5 \n");
-    printf("6 função6 \n");
-    printf("7 função7 \n");
-    printf("8 função8 \n");
-    printf("9 função9 \n");
-    printf("10 função10 \n");
-    printf("11 função11 \n");
-    printf("12 Volrtar ao menu Principal\n");
+    printf("Funçao \n\n\n");
+    printf("1- %c(x)=k\n\n",131);
+    printf("\t k\n");
+    printf("2- %c(x)=X\n\n",131);
+    printf("\t x\n");
+    printf("3- %c(x)=K \n\n\n",131);
+    printf("4- %c(x)=log (x) \n",131);
+    printf("\t   k\n\n");
+    printf("5- %c(x)=sen(x) \n\n\n",131);
+    printf("6- %c(x)=cos(x) \n\n\n",131);
+    printf("7- %c(x)=tan(x) \n\n\n",131);
+    printf("8- %c(x)=Raiz de X \n\n",131);
+    printf("\t 1\n");
+    printf("9- %c(x)= -\n",131);
+    printf("\t x \n\n\n");
+     printf("\t  x\n");
+    printf("10- %c(x)=e \n\n\n",131);
+    printf("11- %c(x)=ln(x) \n\n\n",131);
+    printf("12- Voltar ao menu Principal\n\n");
     scanf("%d",&opcao);
     switch(opcao)
     {
@@ -280,13 +294,13 @@ int main(){
         system("cls");
     printf("Escolha uma opção \n\n");
     printf("Conbinatória \n\n");
-    printf("1 Permutação Simples: P(n) \n");
-    printf("2 Permutação2  \n");
-    printf("3 Permutação3 \n");
-    printf("4 Permutação4  \n");
-    printf("5 Permutação5  \n");
-    printf("6 Permutação6 \n");
-    printf("7 Volrtar ao menu Principal\n");
+    printf("1- Permutação Simples: P(n) \n");
+    printf("2- Permutação com Repetição:PR(n,n1,n2,...,nk)  \n");
+    printf("3- Arranjo Simples: A(n,p) \n");
+    printf("4- Arranjo com Repetição: AR(n,p) \n");
+    printf("5- Combinação Simples: C(n,p)   \n");
+    printf("6- Combinação com Repetição: CR(n,p)  \n");
+    printf("7- Voltar ao menu Principal\n\n");
     scanf("%d",&opcao);
     switch(opcao)
     {
@@ -332,19 +346,25 @@ int main(){
      void derivadaNumerica() {
         system("cls");
     printf("Escolha uma opção \n\n");
-    printf("Derivada Numérica \n\n");
-    printf("1 D1 \n");
-    printf("2 D2 \n");
-    printf("3 D3 \n");
-    printf("4 D4  \n");
-    printf("5 D5  \n");
-    printf("6 D6 \n");
-    printf("7 D7 \n");
-    printf("8 D8 \n");
-    printf("9 D9 \n");
-    printf("10 D11 \n");
-    printf("11 D12 \n");
-    printf("12 Volrtar ao menu Principal\n");
+    printf("Derivada Numérica \n\n\n");
+    printf("1- %c(x)=k\n\n",131);
+    printf("\t k\n");
+    printf("2- %c(x)=k\n\n",131);
+    printf("\t x\n");
+    printf("3- %c(x)=X \n\n\n",131);
+    printf("4- %c(x)=log (x) \n",131);
+    printf("\t   k\n\n");
+    printf("5- %c(x)=sen(x) \n\n\n",131);
+    printf("6- %c(x)=cos(x) \n\n\n",131);
+    printf("7- %c(x)=tan(x) \n\n\n",131);
+    printf("8- %c(x)=Raiz de X \n\n",131);
+    printf("\t 1\n");
+    printf("9- %c(x)= -\n",131);
+    printf("\t x \n\n\n");
+     printf("\t  x\n");
+    printf("10- %c(x)=e \n\n\n",131);
+    printf("11- %c(x)=ln(x) \n\n\n",131);
+    printf("12- Voltar ao menu Principal\n\n");
     scanf("%d",&opcao);
     switch(opcao)
     {
@@ -372,37 +392,32 @@ int main(){
 
         break;
 
-        case 7:
+            case 7:
 
         break;
-
-        case 8:
-
-        break;
-
-         case 9:
+            case 8:
 
         break;
-
-         case 10:
-
-        break;
-
-         case 11:
+            case 9:
 
         break;
+            case 10:
 
-        case 12:
+        break;
+            case 11:
+
+        break;
+            case 12:
+                system("cls");
+                MenuPrincipal();
+        break;
+
+        default:
             system("cls");
-            MenuPrincipal();
-        break;
-
-    default:
-        system("cls");
-        printf("Opção Inválida Escolha Outra Opção \n");
-        system("pause");
-        system("cls");
-        combinatoria();
+            printf("Opção Inválida Escolha Outra Opção \n");
+            system("pause");
+            system("cls");
+            derivadaNumerica();
     }
     }
 
@@ -454,3 +469,6 @@ int main(){
  return 0;
 
 }
+
+
+
