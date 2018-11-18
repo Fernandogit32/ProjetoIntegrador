@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
+#include "funcoes.h"
 
 
 
@@ -10,7 +11,6 @@ int main(){
     setlocale(LC_ALL, "Portuguese");
 
  //-------------------------//função menu principal//-------------------------------
-
 
 
    void MenuPrincipal(){
@@ -37,6 +37,7 @@ int main(){
 
 
     void somatorio() {
+    system("color 09");
     system("cls");
     printf("Escolha uma opção \n\n");
     printf("Somatorio \n\n");
@@ -58,14 +59,30 @@ int main(){
     {
         case 1:
 
+           system("cls");
+           primeirasomatoria();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 2:
-
+            system("cls");
+            segundaSomatoria();
+            printf("\nPressione qualquer tecla para continuar");
+            system("pause");
+            system("cls");
+            MenuPrincipal();
         break;
 
          case 3:
-
+           system("cls");
+           terceiraSomatoria();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 4:
@@ -461,7 +478,6 @@ int main(){
 
 
 //---------------------------------//----------------------------
-
 
     MenuPrincipal();
 
