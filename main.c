@@ -11,7 +11,23 @@ int main(){
     setlocale(LC_ALL, "Portuguese");
 
  //-------------------------//função menu principal//-------------------------------
-
+system("color ac");
+printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
+printf("cccccccccccccccccc ccccccccccccccccccccccccccccccccccccccccccccccccc\n");
+printf("cccccccccccccccc ccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
+printf("cccccccccccccc  cccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
+printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
+printf("cccc   ccc        c cccccccccc   ccc cccccc cc ccccccccccc    cccccc\n");
+printf("ccc cccccc cccccc c ccccccccc cccccc cccccc cc cccccccccc cccc ccccc\n");
+printf("cc ccccccc cccccc c cccccccc ccccccc cccccc cc ccccccccc ccccccc ccc\n");
+printf("c cccccccc cccccc c ccccccc cccccccc cccccc cc cccccccc ccccccccc cc\n");
+printf("c cccccccc        c ccccccc cccccccc cccccc cc cccccccc ccccccccc cc\n");
+printf("cc ccccccc cccccc c cccccccc ccccccc cccccc cc ccccccccc ccccccc ccc\n");
+printf("ccc cccccc cccccc c cccccccccc ccccc cccccc cc ccccccccccc ccccc ccc\n");
+printf("cccc   ccc cccccc c       ccccc   cc        cc       cccccc    ccccc\n");
+printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
+printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
+printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n\n");
 
    void MenuPrincipal(){
 
@@ -37,7 +53,7 @@ int main(){
 
 
     void somatorio() {
-    system("color 09");
+    system("color 20");
     system("cls");
     printf("Escolha uma opção \n\n");
     printf("Somatorio \n\n");
@@ -100,6 +116,7 @@ int main(){
 
     void constantes() {
         system("cls");
+        system("color 20");
     printf("Escolha uma opção \n\n");
     printf("Constantes \n\n");
     printf("1- Valor de PI\n\n");
@@ -133,6 +150,7 @@ int main(){
 
     void logicaProporcional() {
         system("cls");
+           system("color 20");
     printf("Escolha uma opção \n\n");
     printf("Lógica Proporcional \n\n");
     printf("1 ~ p \n\n");
@@ -186,6 +204,7 @@ int main(){
 
     void matriz() {
         system("cls");
+           system("color 20");
     printf("Escolha uma opção \n\n");
     printf("Matriz \n\n");
     printf("1- Soma \n");
@@ -229,6 +248,7 @@ int main(){
 
      void funcao() {
     system("cls");
+       system("color 20");
     printf("Escolha uma opção \n\n");
     printf("Funçao \n\n\n");
     printf("1- %c(x)=k\n\n",131);
@@ -309,6 +329,7 @@ int main(){
 
     void combinatoria() {
         system("cls");
+           system("color 20");
     printf("Escolha uma opção \n\n");
     printf("Conbinatória \n\n");
     printf("1- Permutação Simples: P(n) \n");
@@ -362,6 +383,7 @@ int main(){
 
      void derivadaNumerica() {
         system("cls");
+           system("color 20");
     printf("Escolha uma opção \n\n");
     printf("Derivada Numérica \n\n\n");
     printf("1- %c(x)=k\n\n",131);
@@ -479,6 +501,10 @@ int main(){
 
 //---------------------------------//----------------------------
 
+printf("Bem Vindo ao nosso sistema para cálculo pressione qualquer tecla para começar");
+
+system("pause");
+system("cls");
     MenuPrincipal();
 
 
