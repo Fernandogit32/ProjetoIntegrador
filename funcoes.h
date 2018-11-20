@@ -1,4 +1,5 @@
 #include <stdio.h>
+int proposicaop, proposicaoq;
 int potencia(int x,int pot)
 {
 	long int res=1;
@@ -13,6 +14,10 @@ auxiliar(int tam)
 
 	for(i = 1;i<=tam;i++)
 		printf("%c",150);
+}
+void proposicaoRegra(){
+     printf("\tUse 0 para F\n");
+    printf("\tUse 1 para V\n");
 }
 
 primeiraSomatoria()
@@ -184,7 +189,112 @@ constanteum()
 
 }
 
+constantedois()
+{
+	float n;
+    float i;
+    double res;
+    double somatoria;
+    float k;
+    double soma;
+    double div;
+    float cons;
 
 
+	printf("\nQuanto maior o valor de K maior a proximação do número Euler\n\n");
+	printf("\n\Valor de K: "); //RECEBENDO VALOR DE K ( VALOR INICIAL DA SOMTÓRIA )
+		scanf("%f",&k);
+
+	system("cls"); //FUNÇÃO PARA LIMPAR A TELA
+
+    div = 1.0/k;
+    soma = 1.0 + div;
+    res = pow(soma,k);
+    printf("\n RESULTADO:\n ");
+    printf("                        1\n",186);
+    printf("                   (1 + ",186);
+    auxiliar(3);
+    printf(")^k\n                         k");
+    printf("\n\n");
+
+    printf("                         1\n",186);
+    printf("                   (1 + ",186);
+    auxiliar(3);
+    printf(")^%.0f     = %.20f\n                         %.0f",k,res,k);
+    printf("\n");
+    printf("\n<PRESSIONE ENTER PARA CONTINUAR>");
+	getchar();
+}
+
+void logica1(){
+    proposicaoRegra();
+    printf("digite o valor da proposição p:");
+    scanf("%d",&proposicaoq);
+        if (proposicaop==1)
+	            {
+	            	printf("\n\tVoce digitou o valor logico verdadeiro para p\n");
+	            	printf("~p = F");
+	            }
+        if(proposicaop==0)
+	           {
+	            	printf("\n\tVoce digitou o valor logico falso para p\n");
+	            	printf("~p= V");
+
+	           }
+        printf("\n<PRESSIONE ENTER PARA CONTINUAR>");
+        system("pause");
+}
+//---------------------------------------------------//-----------------------
+        void logica2(){
+                proposicaoRegra();
+	            printf("digite o valor da proposição p:");
+	            scanf("%d",&proposicaop);
+	            printf("digite o valor da proposição q:");
+	            scanf("%d",&proposicaoq);
+	          	if (proposicaop == 0 && proposicaoq == 0)
+	          	{
+	            	printf("\tF ^ F = F");
+	          	}
+	          	if (proposicaop == 0 && proposicaoq == 1)
+	          	{
+	            	printf("\tF ^ V = F");
+	          	}
+	          	if (proposicaop == 1 && proposicaoq == 0)
+	          	{
+	            	printf("\tV ^ F = F");
+	          	}
+	          	if (proposicaop == 1 && proposicaoq == 1)
+	          	{
+	            	printf("\tV ^ V = V");
+	          	}
+}
+
+void logica3(){
+                proposicaoRegra();
+                printf("digite o valor da proposição p:");
+	            scanf("%d",&proposicaop);
+	            printf("digite o valor da proposição q:");
+	            scanf("%d",&proposicaop);
+	          	if (proposicaop == 0 && proposicaoq == 0)
+	          	{
+	            	printf("\n\tVoce digitou o valor logico falso para p e falso para q\n");
+	            	printf("\tF v F = F");
+	          	}
+	          	if (proposicaop == 0 && proposicaoq == 1)
+	          	{
+	            	printf("\n\tVoce digitou o valor logico falso para p e verdadeiro para q\n");
+	            	printf("\tF v V = V");
+	          	}
+	          	if (proposicaop == 1 && proposicaoq == 0)
+	          	{
+	            	printf("\n\tVoce digitou o valor logico verdadeiro para p e falso para q\n");
+	            	printf("\tV v F = V");
+	          	}
+	          	if (proposicaop == 1 && proposicaoq == 1)
+	          	{
+	            	printf("\tV v V = V");
+	          	}
+
+}
 
 

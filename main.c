@@ -51,10 +51,10 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
    {
       printf("%d %c\n", i, i);
    }
-
+*/
     scanf("%d",&opcao);
 
-*/
+
 
 
     void somatorio() {
@@ -140,7 +140,12 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
         break;
 
         case 2:
-
+           system("cls");
+           constantedois();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
          case 3:
@@ -175,15 +180,30 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
     switch(opcao)
     {
         case 1:
-
+         system("cls");
+          logica1();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 2:
-
+            system("cls");
+          logica2();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 3:
-
+            system("cls");
+          logica3();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 4:

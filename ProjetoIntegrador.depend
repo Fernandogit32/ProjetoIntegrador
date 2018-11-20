@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1542679894 source:c:\users\usuário\desktop\projetointegrador\main.c
+1542723170 source:c:\users\usuário\desktop\projetointegrador\main.c
 	<stdio.h>
 	<stdlib.h>
 	<locale.h>
@@ -9,6 +9,6 @@
 
 1542288032 c:\users\usuário\desktop\projetointegrador\colors.h
 
-1542680334 c:\users\usuário\desktop\projetointegrador\funcoes.h
+1542723596 c:\users\usuário\desktop\projetointegrador\funcoes.h
 	<stdio.h>
 
