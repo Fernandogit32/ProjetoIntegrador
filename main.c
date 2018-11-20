@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <locale.h>
 #include "funcoes.h"
+#include <math.h>
+#include <windows.h>
 
 
 
@@ -9,9 +11,10 @@ int main(){
 
     int opcao=0;
     setlocale(LC_ALL, "Portuguese");
+   system("MODE con cols=168 lines=60");
 
  //-------------------------//função menu principal//-------------------------------
-system("color ac");
+system("color a4");
 printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
 printf("cccccccccccccccccc ccccccccccccccccccccccccccccccccccccccccccccccccc\n");
 printf("cccccccccccccccc ccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
@@ -43,13 +46,15 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
     printf("7. Derivação Numéria\n");
     printf("8. Sair\n\n");
  int i;
-   /*for(i = 0; i < 256; i++)
+/*
+   for(i = 0; i < 256; i++)
    {
       printf("%d %c\n", i, i);
-   }*/
+   }
+
     scanf("%d",&opcao);
 
-
+*/
 
 
     void somatorio() {
@@ -76,7 +81,7 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
         case 1:
 
            system("cls");
-           primeirasomatoria();
+           primeiraSomatoria();
            printf("\nPressione qualquer tecla para continuar");
            system("pause");
            system("cls");
@@ -126,7 +131,12 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
     switch(opcao)
     {
         case 1:
-
+           system("cls");
+           constanteum();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 2:
