@@ -271,10 +271,10 @@ void logica1(){
 
 void logica3(){
                 proposicaoRegra();
-                printf("digite o valor da proposição p:");
+	            printf("digite o valor da proposição p:");
 	            scanf("%d",&proposicaop);
 	            printf("digite o valor da proposição q:");
-	            scanf("%d",&proposicaop);
+	            scanf("%d",&proposicaoq);
 	          	if (proposicaop == 0 && proposicaoq == 0)
 	          	{
 	            	printf("\n\tVoce digitou o valor logico falso para p e falso para q\n");
@@ -296,5 +296,92 @@ void logica3(){
 	          	}
 
 }
+
+void logica4(){
+                proposicaoRegra();
+	            printf("digite o valor da proposição p:");
+	            scanf("%d",&proposicaop);
+	            printf("digite o valor da proposição q:");
+	            scanf("%d",&proposicaoq);
+	          	if (proposicaop == 0 && proposicaoq == 0)
+	          	{
+	            	printf("\n\tVoce digitou o valor logico falso para p e falso para q\n");
+	            	printf("\tF %c F = F",190);
+	          	}
+	          	if (proposicaop == 0 && proposicaoq == 1)
+	          	{
+	            	printf("\n\tVoce digitou o valor logico falso para p e verdadeiro para q\n");
+	            	printf("\tF %c V = V",190);
+	          	}
+	          	if (proposicaop == 1 && proposicaoq == 0)
+	          	{
+	            	printf("\n\tVoce digitou o valor logico verdadeiro para p e falso para q\n");
+	            	printf("\tV %c F = V",190);
+	          	}
+	          	if (proposicaop == 1 && proposicaoq == 1)
+	          	{
+	            	printf("\n\tVoce digitou o valor logico verdadeiro para p e verdadeiro para q\n");
+	            	printf("\tV v V = F\n");
+                    printf("\t  -  \n");
+	          	}
+
+}
+void logica5(){
+      proposicaoRegra();
+	            printf("digite o valor da proposição p:");
+	            scanf("%d",&proposicaop);
+	            printf("digite o valor da proposição q:");
+	            scanf("%d",&proposicaoq);
+	          	if (proposicaop == 0 && proposicaoq == 0)
+	          	{
+	            	printf("\tVoce digitou o valor logico falso para p e falso para q\n");
+	            	printf("\tF -> F = V");
+	          	}
+	          	if (proposicaop == 0 && proposicaoq == 1)
+	          	{
+	            	printf("\tVoce digitou o valor logico falso para p e verdadeiro para q\n");
+	            	printf("\tF -> V = V");
+	          	}
+	          	if (proposicaop == 1 && proposicaoq == 0)
+	          	{
+	            	printf("\tVoce digitou o valor logico verdadeiro para p e falso para q\n");
+	            	printf("\tV -> F = F");
+	          	}
+	          	if (proposicaop == 1 && proposicaoq == 1)
+	          	{
+	            	printf("\tVoce digitou o valor logico verdadeiro para p e verdadeiro para q\n");
+	            	printf("\tV -> V = V");
+	          	}
+
+}
+
+void logica6(){
+                proposicaoRegra();
+	            printf("digite o valor da proposição p:");
+	            scanf("%d",&proposicaop);
+	            printf("digite o valor da proposição q:");
+	            scanf("%d",&proposicaoq);
+	          	if (proposicaop == 0 && proposicaoq == 0)
+	          	{
+	            	printf("\tVoce digitou o valor logico falso para p e falso para q\n");
+	            	printf("\tF <-> F = V");
+	          	}
+	          	if (proposicaop == 0 && proposicaoq == 1)
+	          	{
+	            	printf("\tVoce digitou o valor logico falso para p e verdadeiro para q\n");
+	            	printf("\tF <-> V = F");
+	          	}
+	          	if (proposicaop == 1 && proposicaoq == 0)
+	          	{
+	            	printf("\tVoce digitou o valor logico verdadeiro para p e falso para q\n");
+	            	printf("\tV <-> F = F");
+	         	}
+	          	if (proposicaop == 1 && proposicaoq == 1)
+	          	{
+	            	printf("\tVoce digitou o valor logico verdadeiro para p e verdadeiro para q\n");
+	            	printf("\tV <-> V = V");
+	          	}
+}
+
 
 

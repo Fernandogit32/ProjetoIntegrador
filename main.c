@@ -207,15 +207,30 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
         break;
 
         case 4:
-
+           system("cls");
+           logica4();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 5:
-
+           system("cls");
+           logica5();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 6:
-
+           system("cls");
+           logica6();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
          case 7:
