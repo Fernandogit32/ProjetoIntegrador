@@ -337,43 +337,98 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
     switch(opcao)
     {
         case 1:
-
+            system("cls");
+           funcao1();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 2:
-
+           system("cls");
+           funcao2();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 3:
-
+system("cls");
+           funcao3();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 4:
-
+system("cls");
+           funcao4();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 5:
-
+system("cls");
+           funcao5();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 6:
-
+system("cls");
+           funcao6();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
             case 7:
-
+system("cls");
+           funcao7();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
             case 8:
-
+system("cls");
+           funcao8();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
             case 9:
-
+system("cls");
+           funcao9();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
             case 10:
-
+system("cls");
+           funcao10();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
             case 11:
-
+system("cls");
+           funcao11();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
             case 12:
                 system("cls");

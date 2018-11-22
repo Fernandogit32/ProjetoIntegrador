@@ -764,6 +764,111 @@ printf("\nResultado da matriz determinante 3x3 = %d\n", matrizc[9]);
 
 }
 
+void funcao1(){
+    int k;
+
+    printf("Digite o valor de k: ");
+	scanf("%d",&k);
+    printf("Resultado de f(x)= %d = %d\n", k, k);
+    printf("Resultado igual valor inserido pois se trata de uma funcao constante,\né caracterizada por apresentar uma lei de formacao f(x) = c,\n na qual c é um numero real.");
+}
+
+void funcao2(){
+    int x, k;
+    double funcao;
+    printf("Digite o valor de x: ");
+    scanf("%d",&x);
+    printf("Digite o valor de k: ");
+    scanf("%d",&k);
+    funcao = pow(x,k);//função para expoente pow(base, expoente)
+    printf("\nValor de %c(x)= x^k =  %.5f",159,funcao);
+}
+
+void funcao3(){
+    int x, k;
+    double funcao;
+    printf("Digite o valor de x: ");
+    	scanf("%d",&x);
+    printf("Digite o valor de k: ");
+        scanf("%d",&k);
+    funcao = pow(k,x);//função para expoente pow(base, expoente)
+    printf("\nValor de %c(x)= k^x eh: %.5f",159,funcao);
+}
+
+void funcao4(){
+     int x, k;
+    float log1;
+    float log2;
+    float resultado;
+    printf("Digite o valor de k: ");
+        scanf("%d",&k);
+    printf("Digite o valor de x: ");
+        scanf("%d",&x);
+    log1 = log(x);
+    log2 = log(k);
+    resultado = log1/log2;
+    printf("\nValor de %c(x)= x^k =  %.5f",159,resultado);
+}
+
+void funcao5(){
+     int x;
+    printf("Digite o Numero a ser Convertido em graus: ");
+    scanf("%d",&x);
+    printf("\nValor de %c(x)= sen(%d) = :%.5f\n",159,x,sin(x*3.14159265/180));
+}
+
+void funcao6(){
+
+    int x;
+    printf("Digite o Numero a ser Convertido em graus: ");
+        scanf("%d",&x);
+    printf("\nValor de %c(x)= cos(%d) = :%.5f",159,x,cos(x*3.14159265/180));
+}
+
+void funcao7(){
+     int x;
+    printf("Digite o Numero a ser Convertido em graus: ");
+        scanf("%d",&x);
+    printf("\nValor de %c(x)= tan(%d) = :%.5f",159,x,tan(x*3.14159265/180));
+}
+
+void funcao8(){
+     int x;
+    printf("Digite o numero para calcular a Raiz: ");
+        scanf("%d",&x);
+    printf("\nRaiz de %d = %.5f",x,sqrt(x));
+}
+
+void funcao9(){
+     float x;
+    float div;
+    printf("Digite o valor de x: ");
+        scanf("%f",&x);
+    if(x==0)
+        printf("ERRO: nao pode ser dividido por 0\n");
+    else
+    {
+        div = 1 / x;
+        printf("Valor de %c(x)= 1/%f = %.4f",159,x,div);
+    }
+}
+
+void funcao10(){
+     int x;
+    double e = 2.718281828459045235360287;
+    printf("Digite o valor de x: ");
+        scanf("%d",&x);
+    printf("Valor de %c(x)=e^%d = %.5f",159, x,pow(e,x));
+}
+
+void funcao11(){
+     int x;
+    printf("Digite o valor de x: ");
+        scanf("%d",&x);
+    printf("\nvalor de %c(x)= log(%d) = %.5f",159, x, log(x));
+}
+
+
 
 
 
