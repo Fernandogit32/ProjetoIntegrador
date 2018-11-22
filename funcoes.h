@@ -382,6 +382,390 @@ void logica6(){
 	            	printf("\tV <-> V = V");
 	          	}
 }
+void matriz1(){
+  int linhaA;
+  int colunaA;
+
+
+system("cls");
+
+printf("\n\n\n Para adicionarmos duas ou mais matrizes é preciso que todas elas tenham o mesmo número de linhas\n");
+printf("      e de colunas. A soma dessas matrizes irá resultar em outra matriz que também terá o mesmo\n");
+printf("      número de linhas e de colunas.\n\n\n\n");
+
+  printf("Digite a quantidade de linhas que deseja para a matriz:  ");
+  scanf("%d",&linhaA);
+  printf("Digite a quantidade de colunas que deseja para a matriz:  ");
+  scanf("%d",&colunaA);
+  int matriza[linhaA][colunaA],i, j;
+  int matrizb[linhaA][colunaA];
+  int resultado[linhaA][colunaA];
+
+  printf ("\n Digite os valores para os elementos da matriz A : \n");
+  for ( i=0; i<linhaA; i++ ){
+  puts("\n");
+    for ( j=0; j<colunaA; j++ )
+    {
+    printf("\n Digite o valor da Linha %d e da Coluna %d da Matriz A: ", i, j);
+       scanf ("%d", &matriza[i][j]);
+    }
+
+  }
+
+   printf("\n\n******************* Elementos digitados: ********************* \n\n");
+   for ( i=0; i<linhaA; i++ ){
+   puts("\n");
+   printf("\t");
+    for ( j=0; j<colunaA; j++ )
+    {
+       printf ("|%d|",matriza[ i ][ j ]);
+    }
+   }
+
+  getch();
+
+//--------------------------------------------------------------------------------------------------
+
+    printf ("\n Digite os valores para os elementos da matriz B: \n Segunda coluna:\n");
+  for ( i=0; i<linhaA; i++ ){
+  puts("\n");
+    for ( j=0; j<colunaA; j++ )
+    {
+       printf("\n Digite o valor da Linha %d e da Coluna %d da Matriz B: ", i, j);
+       scanf ("%d", &matrizb[i][j]);
+    }
+
+  }
+
+   printf("\n\n******************* Elementos digitados: ********************* \n\n");
+   for ( i=0; i<linhaA; i++ ){
+   puts("\n");
+   printf("\t");
+    for ( j=0; j<colunaA; j++ )
+    {
+       printf ("|%d|",matrizb[ i ][ j ]);
+    }
+   }
+
+  system("pause");
+
+  printf("\n----------------- Resultado da soma das colunas -------------------------");
+
+  for ( i=0; i<linhaA; i++ )
+{
+  for ( j=0; j<colunaA; j++ )
+       resultado[i][j] = matriza[i][j]+matrizb[i][j];
+
+}
+
+for ( i=0; i< linhaA; i++ )
+    {
+   puts("\n");
+
+    for ( j=0; j<colunaA; j++ )
+       printf ("|%d|",matriza[i][j]);
+
+     printf("   ------>   ");
+
+    for ( j=0; j<colunaA; j++ )
+       printf ("|%d|",matrizb[i][j]);
+
+    printf("   ---RESULTADO--->   ");
+
+    for ( j=0; j<colunaA; j++ )
+       printf ("|%d|",resultado[i][j]);
+    }
+    system("pause");
+
+
+}
+void matriz2(){
+    int linha = 0;
+int coluna;
+  system("cls");
+printf("\n\n\n Para subtrairmos duas ou mais matrizes é preciso que todas elas tenham o mesmo número de linhas\n");
+printf("      e de colunas. A subtração dessas matrizes irá resultar em outra matriz que também terá o mesmo\n");
+printf("      número de linhas e de colunas.\n\n\n\n");
+
+  printf("Digite a quantidade de linhas que deseja para a matriz:  ");
+  scanf("%d",&linha);
+  printf("Digite a quantidade de colunas que deseja para a matriz:  ");
+  scanf("%d",&coluna);
+  int matriza[linha][coluna],i, j;
+  int matrizb[linha][coluna];
+  int resultado[linha][coluna];
+
+  printf ("\n Digite os valores para os elementos da matriz A: \n Primeira coluna:\n");
+  for ( i=0; i<linha; i++ ){
+  puts("\n");
+    for ( j=0; j<coluna; j++ )
+    {
+      printf("\n Digite o valor da Linha %d e da Coluna %d da Matriz A: ", i, j);
+       scanf ("%d", &matriza[i][j]);
+    }
+
+  }
+
+   printf("\n\n******************* Elementos digitados: ********************* \n\n");
+   for ( i=0; i<linha; i++ ){
+   puts("\n");
+   printf("\t");
+    for ( j=0; j<coluna; j++ )
+    {
+       printf ("|%d|",matriza[ i ][ j ]);
+    }
+   }
+
+  getch();
+
+//--------------------------------------------------------------------------------------------------
+
+    printf ("\n Digite os valores para os elementos da matriz B: \n Segunda coluna:\n");
+  for ( i=0; i<linha; i++ ){
+  puts("\n");
+    for ( j=0; j<coluna; j++ )
+    {
+        printf("\n Digite o valor da Linha %d e da Coluna %d da Matriz B: ", i, j);
+       scanf ("%d", &matrizb[i][j]);
+    }
+
+  }
+
+   printf("\n\n******************* Elementos digitados ********************* \n\n");
+   for ( i=0; i<linha; i++ ){
+   puts("\n");
+   printf("\t");
+    for ( j=0; j<coluna; j++ )
+    {
+       printf ("|%d|",matrizb[ i ][ j ]);
+    }
+   }
+
+ system("pause");
+
+  printf("\n-----------------Resultado do produto das colunas-------------------------");
+
+  for ( i=0; i<linha; i++ )
+  {
+  for ( j=0; j<coluna; j++ )
+       resultado[i][j] = matriza[i][j]-matrizb[i][j];
+  }
+
+for ( i=0; i<linha; i++ )
+    {
+   puts("\n");
+
+    for ( j=0; j<coluna; j++ )
+       printf ("|%d|",matriza[i][j]);
+
+     printf("   ------>   ");
+
+    for ( j=0; j<coluna; j++ )
+       printf ("|%d|",matrizb[i][j]);
+
+    printf("   ---RESULTADO--->   ");
+
+    for ( j=0; j<coluna; j++ )
+       printf ("|%d|",resultado[i][j]);
+    }
+    system("pause");
+
+}
+
+matriz3(){
+
+system("cls");
+int i, j, lA, cA, lB, cB, X;
+printf("\n\n\n Para descobrirmos o produto de duas ou mais matrizes é preciso que todas elas tenham o mesmo número de linhas\n");
+printf("      e de colunas. O produto dessas matrizes irá resultar em outra matriz que também terá o mesmo\n");
+printf("      número de linhas e de colunas.\n\n\n\n");
+
+printf("\n Digite a quantidade de linhas da matriz A : ");
+scanf("%d",&lA);
+printf("\n Digite a quantidade de colunas da matriz A : ");
+scanf("%d",&cA);
+printf("\n Digite a quantidade de linhas da matriz B : ");
+scanf("%d",&lB);
+printf("\n Digite a quantidade de colunas da matriz B : ");
+scanf("%d",&cB);
+float matrizA[lA][cA],matrizB[lB][cB],matrizC[lA][cB],Aux=0;
+if(cA==lB)
+{
+for(i=0; i<lA; i++)
+{
+        for(j=0; j<cA; j++)
+        {
+         printf("\n\n Digite o valor da Linha %d e da Coluna %d da Matriz A: ", i, j);
+        scanf("%f", &matrizA[i][j]);
+        }
+        printf("\n");
+        }
+for(i=0; i<lB; i++)
+{
+        for(j=0; j<cB; j++)
+        {
+         printf("\n Digite o valor da Linha %d e da Coluna %d da Matriz B: ", i, j);
+        scanf("%f", &matrizB[i][j]);
+        }
+        printf("\n");
+        }
+printf("Matriz A \n\n");
+for(i=0; i<lA; i++)
+{
+        for(j=0; j<cA; j++)
+        {
+        printf("%6.f", matrizA[i][j]);
+        }
+        printf("\n\n");
+        }
+printf("Matriz B \n\n");
+for(i=0; i<lB; i++)
+{
+        for(j=0; j<cB; j++)
+        {
+        printf("%6.f", matrizB[i][j]);
+        }
+        printf("\n\n");
+        }
+for(i=0; i<lA; i++)
+{
+        for(j=0; j<cB; j++)
+        {
+                 matrizC[i][j]=0;
+                 for(X=0; X<lB; X++)
+                 {
+                 Aux += matrizA[i][X] * matrizB[X][j];
+                 }
+                 matrizC[i][j]=Aux;
+                 Aux=0;
+                 }
+                 }
+                 printf("\n\n");
+printf("Matriz Gerada da Multiplicação: A*B \n\n");
+for(i=0; i<lA; i++)
+{
+        for(j=0; j<cB; j++)
+        {
+        printf("%6.f", matrizC[i][j]);
+        }
+        printf("\n\n");
+        }
+        printf("\n\n");
+        }
+else
+{
+printf("\n\n Nao ha como multiplicar as matrizes dadas \n");
+}
+system("pause");
+}
+
+matriz4(){
+    system("cls");
+int linha = 0;
+int coluna;
+   printf("\n\n\n    O determinante de uma Matriz é dado pelo valor numérico resultante da subtração entre\n");
+   printf("  o somatório do produto dos termos da diagonal principal e do somatório do produto\n");
+   printf("  dos termos da diagonal secundária. Nas matrizes quadradas de ordem 3x3 esses\n");
+   printf("  cálculos podem ser efetuados repetindo-se a primeira e a segunda coluna, aplicando em seguida\n");
+   printf("  a regra de Sarrus. Lembrando que uma matriz é quadrada quando o número de linhas\n");
+   printf("  é igual ao número de colunas.\n\n\n");
+  printf("Digite a quantidade de linhas que deseja para a matriz:  ");
+  scanf("%d",&linha);
+  printf("Digite a quantidade de colunas que deseja para a matriz:  ");
+  scanf("%d",&coluna);
+  int matriza[linha][coluna],i, j;
+  int matrizb[linha][coluna];
+  int matrizc[15];
+  if(linha!=coluna)
+  {
+   printf("   Lembrando que uma matriz é quadrada quando o número de linhas\n");
+   printf("  é igual ao número de colunas.\n\n\n");
+   return 0;
+  }
+  printf ("\n Digite os valores para os elementos da matriz: \n Primeira coluna:\n");
+  for ( i=0; i<linha; i++ ){
+  puts("\n");
+    for ( j=0; j<coluna; j++ )
+    {
+      printf("\n Digite o valor da Linha %d e da Coluna %d da Matriz: ", i, j);
+       scanf ("%d", &matriza[i][j]);
+    }
+
+  }
+
+   printf("\n\n******************* Elementos digitados: ********************* \n\n");
+   for ( i=0; i<linha; i++ ){
+   puts("\n");
+   printf("\t");
+    for ( j=0; j<coluna; j++ )
+    {
+       printf ("|%d|",matriza[ i ][ j ]);
+    }
+   }
+
+  system("pause");
+
+if (linha==2)
+{
+    printf("\n\n\tMatriz quadrada de ordem 2x2.\n\n  ");
+matrizc[2]= matriza[0][0]*matriza[1][1];
+matrizc[3]= matriza[0][1]*matriza[1][0];
+
+       matrizc[4]= matrizc[2]-matrizc[3];
+       printf("\nResultado da matriz determinante 2x2 = %d\n", matrizc[4]);
+}
+if(linha==3)
+{
+    printf("\n\n\tMatriz quadrada de ordem 3x3.\n\n  ");
+matrizc[0]= matriza[0][0]*matriza[1][1]*matriza[2][2];
+matrizc[1]= matriza[0][1]*matriza[1][2]*matriza[2][0];
+matrizc[2]= matriza[0][2]*matriza[1][0]*matriza[2][1];
+
+
+
+matrizc[3]= matriza[2][0]*matriza[1][1]*matriza[0][2];
+matrizc[4]= matriza[2][1]*matriza[1][2]*matriza[0][0];
+matrizc[5]= matriza[2][2]*matriza[1][0]*matriza[0][1];
+
+
+
+matrizc[7]=matrizc[0]+matrizc[1]+matrizc[2];
+matrizc[8]=matrizc[3]+matrizc[4]+matrizc[5];
+matrizc[9]=matrizc[7]-matrizc[8];
+printf("\nResultado da matriz determinante 3x3 = %d\n", matrizc[9]);
+        getchar();
+}
+if(linha==4)
+{
+    printf("\n\n\tMatriz quadrada de ordem 3x3.\n\n  ");
+matrizc[0]= matriza[0][0]*matriza[1][1]*matriza[2][2];
+matrizc[1]= matriza[0][1]*matriza[1][2]*matriza[2][0];
+matrizc[2]= matriza[0][2]*matriza[1][0]*matriza[2][1];
+matrizc[3]= matriza[0][2]*matriza[1][0]*matriza[2][1];
+
+
+
+matrizc[4]= matriza[2][0]*matriza[1][1]*matriza[0][2];
+matrizc[5]= matriza[2][1]*matriza[1][2]*matriza[0][0];
+matrizc[6]= matriza[2][2]*matriza[1][0]*matriza[0][1];
+matrizc[7]= matriza[2][2]*matriza[1][0]*matriza[0][1];
+
+
+
+matrizc[7]=matrizc[0]+matrizc[1]+matrizc[2];
+matrizc[8]=matrizc[3]+matrizc[4]+matrizc[5];
+matrizc[9]=matrizc[7]-matrizc[8];
+printf("\nResultado da matriz determinante 3x3 = %d\n", matrizc[9]);
+
+   system("pause");
+}
+
+   system("pause");
+
+}
+
+
+
 
 
 

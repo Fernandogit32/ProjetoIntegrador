@@ -12,9 +12,9 @@ int main(){
     int opcao=0;
     setlocale(LC_ALL, "Portuguese");
    system("MODE con cols=168 lines=60");
-
+ system("color 02");
  //-------------------------//função menu principal//-------------------------------
-system("color a4");
+
 printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
 printf("cccccccccccccccccc ccccccccccccccccccccccccccccccccccccccccccccccccc\n");
 printf("cccccccccccccccc ccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
@@ -34,7 +34,6 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
 
    void MenuPrincipal(){
 
-   system("color 2e");
     printf("Menu Principal\n \n");
     printf("Escolha uma das Opções\n \n");
     printf("1. Somatório \n");
@@ -58,7 +57,7 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
 
 
     void somatorio() {
-    system("color 20");
+
     system("cls");
     printf("Escolha uma opção \n\n");
     printf("Somatorio \n\n");
@@ -121,7 +120,7 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
 
     void constantes() {
         system("cls");
-        system("color 20");
+
     printf("Escolha uma opção \n\n");
     printf("Constantes \n\n");
     printf("1- Valor de PI\n\n");
@@ -165,7 +164,7 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
 
     void logicaProporcional() {
         system("cls");
-           system("color 20");
+
     printf("Escolha uma opção \n\n");
     printf("Lógica Proporcional \n\n");
     printf("1 ~ p \n\n");
@@ -249,7 +248,7 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
 
     void matriz() {
         system("cls");
-           system("color 20");
+
     printf("Escolha uma opção \n\n");
     printf("Matriz \n\n");
     printf("1- Soma \n");
@@ -261,19 +260,39 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
     switch(opcao)
     {
         case 1:
-
+           system("cls");
+           matriz1();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 2:
-
+           system("cls");
+           matriz2();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 3:
-
+           system("cls");
+           matriz3();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 4:
-
+            system("cls");
+           matriz4();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 5:
@@ -293,7 +312,7 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
 
      void funcao() {
     system("cls");
-       system("color 20");
+
     printf("Escolha uma opção \n\n");
     printf("Funçao \n\n\n");
     printf("1- %c(x)=k\n\n",131);
@@ -374,7 +393,7 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
 
     void combinatoria() {
         system("cls");
-           system("color 20");
+
     printf("Escolha uma opção \n\n");
     printf("Conbinatória \n\n");
     printf("1- Permutação Simples: P(n) \n");
@@ -428,7 +447,7 @@ printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n
 
      void derivadaNumerica() {
         system("cls");
-           system("color 20");
+
     printf("Escolha uma opção \n\n");
     printf("Derivada Numérica \n\n\n");
     printf("1- %c(x)=k\n\n",131);
