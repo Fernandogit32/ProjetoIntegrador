@@ -15,22 +15,28 @@ int main(){
  system("color 02");
  //-------------------------//função menu principal//-------------------------------
 
-printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
-printf("cccccccccccccccccc ccccccccccccccccccccccccccccccccccccccccccccccccc\n");
-printf("cccccccccccccccc ccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
-printf("cccccccccccccc  cccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
-printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
-printf("cccc   ccc        c cccccccccc   ccc cccccc cc ccccccccccc    cccccc\n");
-printf("ccc cccccc cccccc c ccccccccc cccccc cccccc cc cccccccccc cccc ccccc\n");
-printf("cc ccccccc cccccc c cccccccc ccccccc cccccc cc ccccccccc ccccccc ccc\n");
-printf("c cccccccc cccccc c ccccccc cccccccc cccccc cc cccccccc ccccccccc cc\n");
-printf("c cccccccc        c ccccccc cccccccc cccccc cc cccccccc ccccccccc cc\n");
-printf("cc ccccccc cccccc c cccccccc ccccccc cccccc cc ccccccccc ccccccc ccc\n");
-printf("ccc cccccc cccccc c cccccccccc ccccc cccccc cc ccccccccccc ccccc ccc\n");
-printf("cccc   ccc cccccc c       ccccc   cc        cc       cccccc    ccccc\n");
-printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
-printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n");
-printf("cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\n\n\n");
+printf(" __  __   ___                       .          \n");
+    printf("|  |/  `.'   `.                   .'|          \n");
+    printf("|   .-.  .-.   '              .| <  |          \n");
+    printf("|  |  |  |  |  |    __      .' |_ | |          \n");
+    printf("|  |  |  |  |  | .:--.'.  .'     || | .'''-.   \n");
+    printf("|  |  |  |  |  |/ |   \\ |'--.  .-'| |/.'''. \  \n");
+    printf("|  |  |  |  |  |`\" __ | |   |  |  |  /    | | \n");
+    printf("|__|  |__|  |__| .'.''| |   |  |  | |     | |  \n");
+    printf("                / /   | |_  |  '.'| |     | |  \n");
+    printf("                \\ \\._,\\ '/  |   / | '.    | '. \n");
+    printf("                 `--'  `\"   `'-'  '---'   '---'\n");
+    printf("\t\t\t,d88~~\          888                           \n");
+    printf("\t\t\t8888     e88~-_  888 Y88b    /  e88~~8e  888-~\\\n");
+    printf("\t\t\t`Y88b   d888   i 888  Y88b  /  d888  88b 888   \n");
+    printf("\t\t\t `Y88b, 8888   | 888   Y88b/   8888__888 888   \n");
+    printf("\t\t\t   8888 Y888   ' 888    Y8/    Y888    , 888   \n");
+    printf("\t\t\t   8888 Y888   ' 888    Y8/    Y888    , 888   \n");
+    printf("\t\t\t\\__88P'  \"88_-~  888     Y      \"88___/  888   \n");
+    printf("\t\t\t                                         -------patrick          fernando---\n");
+    printf("\t\t\t                                                    |           |           |\n");
+    printf("\t\t\t                                                    --gabriel--             bruno\n");
+    printf("\t\t\t                                                        \n");
 
    void MenuPrincipal(){
 
