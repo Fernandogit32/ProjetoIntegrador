@@ -468,27 +468,57 @@ system("cls");
     switch(opcao)
     {
         case 1:
-
+           system("cls");
+          combinatoria1();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 2:
-
+            system("cls");
+          combinatoria2();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 3:
-
+             system("cls");
+          combinatoria3();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 4:
-
+            system("cls");
+          combinatoria4();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 5:
-
+            system("cls");
+          combinatoria5();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 6:
-
+            system("cls");
+          combinatoria6();
+           printf("\nPressione qualquer tecla para continuar");
+           system("pause");
+           system("cls");
+           MenuPrincipal();
         break;
 
         case 7:
@@ -537,39 +567,39 @@ system("cls");
         break;
 
         case 2:
-
+            derivada2();
         break;
 
         case 3:
-
+            derivada3();
         break;
 
         case 4:
-
+            derivada4();
         break;
 
         case 5:
-
+            derivada5();
         break;
 
         case 6:
-
+            derivada6();
         break;
 
             case 7:
-
+            derivada7();
         break;
             case 8:
-
+            derivada8();
         break;
             case 9:
-
+            derivada9();
         break;
             case 10:
 
         break;
             case 11:
-
+            derivada11();
         break;
             case 12:
                 system("cls");
